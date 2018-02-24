@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "parcel-bundler": "^1.6.2",
+    "parcel-plugin-vue": "^1.5.0"
+  },
+  "dependencies": {
+    "grimoirejs-forward-shading": "^1.10.2",
+    "grimoirejs-gltf": "^2.3.21",
+    "grimoirejs-preset-basic": "^1.11.20",
+    "vue": "^2.5.13",
+    "vuex": "^3.0.1"
+  },
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html"
+  }
+}
