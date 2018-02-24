@@ -12,7 +12,7 @@
 					<light intensity="3" />
 					<!-- <model src="http://ci.grimoire.gl/tf/Duck/glTF/Duck.gltf" /> -->
 					<!-- <model src="http://localhost:3000/grimoire-chan.gltf" /> -->
-					<model src="http://localhost:3000/grimoire-chan.gltf" />
+					<model src="https://raw.githubusercontent.com/TUS-OSK/VYT-site/grimoire/grimoire-chan.gltf" />
 					<!-- <mesh geometry="cube" position="0,0,0" color="#00f" sun="n(0,0,-1)" ></mesh> -->
 				</scene>
 			</goml>
@@ -22,7 +22,6 @@
 </template>
 
 <script>
-	// require("grimoirejs-preset-basic")
 	module.exports = {
 		props: [],
 		components: {
