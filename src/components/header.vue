@@ -37,7 +37,9 @@
 
 <style scoped>
 	.header-container {
-		border-bottom: 2px solid #603CC0;
+		/*border-bottom: 2px solid #603CC0;*/
+		border-bottom: 2px solid #f9efd5;
+		background-color: #603CC0;
 		color: #ccc;
 		/*height: 100px;*/
 		display: flex;
@@ -52,11 +54,12 @@
 		height: 100%;
 	}
 	.title {
-		color: #a73F77;
+		/*color: #a73F77;*/
 		/*color: #971F57;*/
 		color: #603CC0;
+		color: #f9efd5;
 		font-size: 30px;
-		text-shadow: 
+		/*text-shadow: 
 			#150E4C calc(1px) 0px,  #150E4C calc(-1px) 0px,
 			#150E4C 0px calc(-1px), #150E4C 0px calc(1px),
 			#150E4C calc(1px) calc(1px) , #150E4C calc(-1px) calc(1px),
@@ -64,7 +67,7 @@
 			#150E4C 1px calc(1px),  #150E4C -1px calc(1px),
 			#150E4C 1px calc(-1px), #150E4C -1px calc(-1px),
 			#150E4C calc(1px) 1px,  #150E4C calc(-1px) 1px,
-			#150E4C calc(1px) -1px, #150E4C calc(-1px) -1px;
+			#150E4C calc(1px) -1px, #150E4C calc(-1px) -1px;*/
 		text-align: center;
 	}
 	.buttons {
@@ -75,8 +78,10 @@
 	}
 	.buttons * {
 		border-left: 2px solid #603CC0;
+		border-left: 2px solid #f9efd5;
 	}
 	.buttons :last-child {
 		border-right: 2px solid #603CC0;
+		border-right: 2px solid #f9efd5;
 	}
 </style>

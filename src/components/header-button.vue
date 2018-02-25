@@ -35,11 +35,13 @@
 	}
 	.container:hover {
 		background-color: rgba(151, 31, 87, 0.2);	/* #971F57 */
+		background-color: #971F57
 	}
 	.text {
-		color: #a73F77;
+		/*color: #a73F77;*/
 		/*color: #971F57;*/
 		color: #603CC0;
+		color: #f9efd5;
 		font-size: 27px;
 		/*text-shadow: 
 			#150E4C calc(1px) 0px,  #150E4C calc(-1px) 0px,

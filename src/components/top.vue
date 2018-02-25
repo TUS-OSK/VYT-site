@@ -38,5 +38,6 @@
 	.page-content {
 		flex-grow: 1;
 		/*padding: 20px;*/
+		background: linear-gradient(#603CC0, #f9efd5);
 	}
 </style>
