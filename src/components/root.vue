@@ -1,8 +1,8 @@
 <template>
 	<div class="root-container">
-		<!-- <Top /> -->
+		<Top />
 		<!-- <Page /> -->
-		<GL />
+		<!-- <Grimoire /> -->
 	</div>
 </template>
 
@@ -11,14 +11,14 @@
 
 	const Top = require("./top.vue")
 	const Page = require("./page-template.vue")
-	const GL = require("./grimoire.vue")
+	const Grimoire = require("./grimoire.vue")
 
 	module.exports = {
 		store,
 		components: {
 			Top,
 			Page,
-			GL
+			Grimoire
 		},
 		data: function() {
 			return {
@@ -34,5 +34,8 @@
 		background-color: #f9efd5;
 		color: #978b69;
 		color: #746641;
+		/*font-family: 'Patrick Hand', cursive;*/	/* 見辛え */
+		/*font-family: 'Itim', cursive;*/
+		/*font-family: 'Comfortaa', cursive;*/
 	}
 </style>

@@ -1,8 +1,10 @@
 <template>
 	<div class="page-container">
+		<Header title="Top" />
 		<div class="page-content">
 			Hello World!
 		</div>
+		<Footer />
 	</div>
 </template>
 
@@ -11,14 +13,16 @@
 	const Footer = require("./footer.vue")
 
 	module.exports = {
+		props: [],
 		components: {
 			Header,
 			Footer
 		},
 		data: function() {
 			return {
-				msg: "Hello World!"
 			}
+		},
+		methods: {
 		},
 		computed: {
 		}
@@ -27,7 +31,6 @@
 
 <style scoped>
 	.page-container {
-		background-color: #F00;
 		min-height: 100vh;
 		display: flex;
 		flex-direction: column;
