@@ -13,7 +13,6 @@
 		},
 		data: function() {
 			return {
-				msg: "Hello World!"
 			}
 		},
 		computed: {

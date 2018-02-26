@@ -2,7 +2,7 @@
 	<div class="page-container">
 		<Header title="Top" />
 		<div class="page-content">
-			<Grimoire />
+			<!-- <Grimoire /> -->
 		</div>
 		<Footer />
 	</div>
@@ -40,5 +40,7 @@
 	.page-content {
 		flex-grow: 1;
 		/*padding: 20px;*/
+		background: linear-gradient(#603CC0, #f9efd5);
+		/*background: linear-gradient(to right bottom, #603CC0, #f9efd5);*/
 	}
 </style>

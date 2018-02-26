@@ -32,6 +32,7 @@
 <style scoped>
 	.root-container {
 		background-color: #f9efd5;
+		/*background: linear-gradient(to right bottom, #603CC0, #f9efd5);*/
 		color: #978b69;
 		color: #746641;
 		/*font-family: 'Patrick Hand', cursive;*/	/* 見辛え */
