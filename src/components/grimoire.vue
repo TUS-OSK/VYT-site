@@ -8,7 +8,7 @@
 							<MouseCameraControl/>
 						</camera.components>
 					</camera>
-					<light intensity="10" />
+					<light intensity="10"/>
 					<!-- <model src="http://ci.grimoire.gl/tf/Duck/glTF/Duck.gltf" /> -->
 					<!-- <model src="http://localhost:3000/grimoire-chan.gltf" /> -->
 					<model position="0,-2,0" rotation="0,180,0" src="https://raw.githubusercontent.com/TUS-OSK/VYT-site/grimoire/gltf/grimoire-chan.gltf" />

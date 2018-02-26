@@ -46,7 +46,7 @@
 		width: 100%;
 	}
 	#logo {
-		/*background-image: url(../../../grimoire-logo.svg);*/
+		background-image: url(https://raw.githubusercontent.com/TUS-OSK/VYT-site/grimoire/grimoire-logo.svg);
 		/*background-image: url(https://grimoire.gl/css/images/logo-icon.svg);*/
 		width: 50px;
 		height: 100%;

@@ -2,7 +2,7 @@
 	<div class="page-container">
 		<Header title="Top" />
 		<div class="page-content">
-			Hello World!
+			<Grimoire />
 		</div>
 		<Footer />
 	</div>
@@ -11,12 +11,14 @@
 <script>
 	const Header = require("./header.vue")
 	const Footer = require("./footer.vue")
+	const Grimoire = require("./grimoire.vue")
 
 	module.exports = {
 		props: [],
 		components: {
 			Header,
-			Footer
+			Footer,
+			Grimoire
 		},
 		data: function() {
 			return {
